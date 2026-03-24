@@ -1,8 +1,8 @@
 import React from 'react';
 import './FoodCard.css'
 
-const FoodCard = ({ food }) => {
-    console.log(food);
+const FoodCard = ({ food,addToCart }) => {
+    // console.log(food);
     return (
         <div className='card'>
             <div className='card-content'>
@@ -11,7 +11,7 @@ const FoodCard = ({ food }) => {
                 <p>Cuisine : {food.strArea}  </p>
                 <p>Category : {food.strCategory}</p>
             </div>
-            <button>Add to Cart</button>
+            <button onClick={()=>addToCart(food)}>Add to Cart</button>
 
         </div>
     );

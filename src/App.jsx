@@ -16,7 +16,7 @@ function App() {
 
       <main>
       
-     <Suspense>
+     <Suspense fallback={<h2>Loading...............</h2>}>
        <CardSection foodPromise={foodPromise}></CardSection>
      </Suspense>
       </main>

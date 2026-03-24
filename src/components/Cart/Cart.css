@@ -1,4 +1,4 @@
-.card
+.cart
 {
     box-shadow: 2px 2px 15px 5px rgba(60, 61, 60, 0.3) ;
     padding: 10px;
@@ -10,18 +10,14 @@
     
 
 }
-.card-content
+.cart img
 {
-    margin-bottom: 5px;
-}
-.card img
-{
-    width: 100%;
+     width: 100%;
     border-radius: 30px;
     height: 200px;
     object-fit: cover;
 }
-.card button
+.cart button
 {
     margin-top: auto;
     padding: 10px;
@@ -30,8 +26,4 @@
     background-color: rgb(69, 42, 165);
     color:white
     
-}
-.card button:hover
-{
-    cursor: pointer;
 }
