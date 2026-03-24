@@ -1,0 +1,55 @@
+.nav-container
+{
+  max-width: 1280px;
+  margin: 20px auto ;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 20px;
+}
+.nav-left
+{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap:10px;
+}
+.nav-left img
+{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.nav-right-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-right-container li
+{
+    list-style: none;
+   
+}
+.nav-right-container a
+{
+   text-decoration: none;
+   color: inherit; 
+}
+
+.nav-left :hover
+{
+  cursor: pointer;
+   background-color: rgb(38, 9, 65);
+   color:bisque;
+}
+.nav-right-container :hover
+{
+   background-color: rgb(38, 9, 65);
+   color:bisque;
+}

@@ -1,11 +1,18 @@
 import './App.css'
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
  
 
   return (
     <>
-      <h2>Meal Hub</h2>
+      <header>
+    <NavBar></NavBar>
+      </header>
+
+      <main>
+
+      </main>
 
      
     </>
