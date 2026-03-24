@@ -1,6 +1,10 @@
+import { Suspense } from 'react';
 import './App.css'
+import CardSection from './components/CardSection/CardSection';
 import NavBar from './components/NavBar/NavBar'
 
+const foodPromise=fetch("https://www.themealdb.com/api/json/v1/1/search.php?f=a").then(res=>res.json());
+// console.log(foodPromise);
 function App() {
  
 
@@ -11,7 +15,10 @@ function App() {
       </header>
 
       <main>
-
+      
+     <Suspense>
+       <CardSection foodPromise={foodPromise}></CardSection>
+     </Suspense>
       </main>
 
      

@@ -29,6 +29,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  padding: 5px;
 }
 
 .nav-right-container li
